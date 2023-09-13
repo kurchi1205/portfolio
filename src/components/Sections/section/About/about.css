@@ -1,0 +1,46 @@
+@font-face {
+    font-family: Poppins;
+    src: url('/src/assets/fonts/Poppins-Regular.ttf') format('truetype');
+}
+
+.name {
+    font-family: Poppins;
+    font-weight: 700;
+}
+
+.about-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 450px;
+}
+
+.info {
+    max-width: 500px;
+}
+
+.info .profession {
+    color: var(--brand-color)
+}
+
+
+.image-stack {
+    position: relative;
+    width: 350px;
+    height: 350px;
+}
+
+.rect {
+    left: 350px;
+}
+
+.image-stack:nth-child(2) {
+    top: -15px;
+    left: 16px;
+    border-radius: 19px;
+}
+
+.description {
+    font-family: Roboto-Regular;
+    font-size: 20px;
+}
