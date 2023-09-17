@@ -5,7 +5,7 @@ const sectionsData = [
     {
         "sectionName": "Name",
         "sectionType": "brand",
-        "sectionValue": "Harsha",
+        "sectionValue": "Prerana",
         "sectionTo": "top",
     },
     {
