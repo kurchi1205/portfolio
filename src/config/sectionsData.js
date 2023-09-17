@@ -1,4 +1,5 @@
 import { About, Projects, Contacts, Experience, Education, Awards, Hobbies, Volunteering } from "../components/Sections/section"
+import { faLinkedin, faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const sectionsData = [
     {
@@ -176,7 +177,27 @@ const sectionsData = [
         "sectionName": "Contacts",
         "sectionType": "item",
         "sectionTo": "contacts",
-        "sectionComponent": Contacts
+        "sectionComponent": Contacts,
+        "sectionValue": {
+            "socials": [
+                {
+                    "name": "github",
+                    "link": "https://github.com",
+                    "icon": faGithub,
+                },
+                {
+                    "name": "twitter",
+                    "link": "https://twitter.com",
+                    "icon": faTwitter,
+                },
+                {
+                    "name": "linkedin",
+                    "link": "https://linkedin.com",
+                    "icon": faLinkedin,
+                }
+            ],
+            "email": "example@gmail.com"
+        }
     }
 ]
 

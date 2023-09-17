@@ -3,7 +3,7 @@ const ProjectCard = ({ project }) => {
         <div className="col-md-4 mb-5">
             <div className="card" style={{borderRadius:"15px", maxWidth: "21.875rem"}}>
                 <div className="card-image-container">
-                    <img src={"/images/Projects/" + project.projectImage} className="card-img-top card-img" alt={project.projectImage} />
+                    <img src={process.env.PUBLIC_URL + "/images/Projects/" + project.projectImage} className="card-img-top card-img" alt={project.projectImage} />
                 </div>
                 <div className="card-body">
                     <h2 className="fw-bolder">{project.projectName}</h2>
