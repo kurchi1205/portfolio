@@ -115,3 +115,21 @@ body {
 .content-description {
     font-family: Roboto-Regular, 'sans-serif';
 }
+
+.box-shadow-full {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 1.25rem;
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 3rem;
+    z-index: 2;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 768px) {
+    .box-shadow-full {
+      padding: 3rem;
+    }
+}
