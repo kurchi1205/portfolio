@@ -12,8 +12,8 @@ const Awards = ({ data }) => {
                         {
                             awards?.map((award, index) => {
                                 return (
-                                    <div className="col-md-4">
-                                        <AwardsCard award={award} key={'award_' + index} />
+                                    <div className="col-md-4" key={'award_' + index}>
+                                        <AwardsCard award={award} />
                                     </div>
                                 )
                             })
