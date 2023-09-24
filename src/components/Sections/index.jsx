@@ -4,7 +4,7 @@ const Sections = () => {
     const sections = sectionsData.slice(1)
 
     return (
-        <div id="sections" className="sections">
+        <main id="sections" className="sections">
             {
                 sections.map((section, index) => {
                     const sectionName = section.sectionName
@@ -14,7 +14,7 @@ const Sections = () => {
                     )
                 })
             }       
-        </div>
+        </main>
     )
 }
 
