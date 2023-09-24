@@ -138,15 +138,23 @@ const sectionsData = [
         "sectionComponent": Hobbies,
         "sectionValue": [
             {
-                'hobby': 'Baking',
-                'image': 'baking.png',
+                'hobby': 'Singing',
+                'image': 'singing.png',
             },
             {
                 'hobby': 'Baking',
                 'image': 'baking.png',
             },
             {
-                'hobby': 'Baking',
+                'hobby': 'Horse Riding',
+                'image': 'horse_riding.png',
+            },
+            {
+                'hobby': 'Swimming',
+                'image': 'baking.png',
+            },
+            {
+                'hobby': 'Drawing',
                 'image': 'baking.png',
             }
         ]
