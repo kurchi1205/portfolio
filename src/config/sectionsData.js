@@ -156,11 +156,11 @@ const sectionsData = [
             },
             {
                 'hobby': 'Swimming',
-                'image': 'baking.png',
+                'image': 'swimming.png',
             },
             {
                 'hobby': 'Drawing',
-                'image': 'baking.png',
+                'image': 'painting.png',
             }
         ]
     },
