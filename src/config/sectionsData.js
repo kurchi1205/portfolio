@@ -70,20 +70,25 @@ const sectionsData = [
                 "companyName": 'Sivi.ai',
                 "experienceDesc": "Turn your text into visual content instantly with Sivi. Using artificial intelligence, you can auto-generate editable banners, social posts, google display ads, and more from your story, webpage, article, etc.",
                 "role": "Data Scientist",
-                "companyImage": "sivi.png"
-                // redirect link
+                "companyImage": "sivi.png",
+                "year": "Dec 2021 - Present",
+                "link": "",
             },
             {
                 "companyName": 'SigmaRed Technologies',
                 "experienceDesc": "Turn your text into visual content instantly with Sivi. Using artificial intelligence, you can auto-generate editable banners, social posts, google display ads, and more from your story, webpage, article, etc.",
                 "role": "ML Intern",
-                "companyImage": "sigmared.png"
+                "companyImage": "sigmared.png",
+                "year": "Jan 2021 - Mar 2021",
+                "link": "",
             },
             {
                 "companyName": 'Fiverr',
                 "experienceDesc": "Turn your text into visual content instantly with Sivi. Using artificial intelligence, you can auto-generate editable banners, social posts, google display ads, and more from your story, webpage, article, etc.",
                 "role": "ML Freelancer",
-                "companyImage": "fiverr.png"
+                "companyImage": "fiverr.png",
+                "year": "Apr 2021 - Nov 2021",
+                "link": "",
             }
         ],
         "sectionComponent": Experience,
