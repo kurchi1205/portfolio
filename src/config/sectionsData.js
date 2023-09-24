@@ -114,7 +114,7 @@ const sectionsData = [
         "sectionComponent": Education
     },
     {
-        "sectionName": "Awards",
+        "sectionName": "Awards & Certifications",
         "sectionType": "item",
         "sectionTo": "awards",
         "sectionValue": [
@@ -133,9 +133,51 @@ const sectionsData = [
                 "linkValue": "",
             },
             {
-                "awardName": 'Dashing Debut',
-                "awardDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna",
+                "awardName": 'Applied Machine Learning Course',
+                "awardDesc": "This certificate above verifies that I have successfully completed the course Applied Machine Learning Course on Sep 2021 as taught by Srikanth Varma Chekuri.",
+                "awardImage": "Applied_AI.jpeg",
+                "linkText": "", 
+                "linkValue": "",
+            },
+            {
+                "awardName": 'Certificate of Presentation',
+                "awardDesc": "This certificate was awarded to me for presenting a paper on 'Breast Cancer Diagnosis Using Image Processing and Machine Learning' at the International Conference on Emerging Technology in Modelling and Graphics(IEMGRAPH) 2018.",
+                "awardImage": "IEMGraph.jpeg",
+                "linkText": "", 
+                "linkValue": "",
+            },
+            {
+                "awardName": 'NPTEL Online Certification on Data Science for Engineers',
+                "awardDesc": "This certificate was awarded to me for completing the course Data Science for Engineers offered by IIT Madras in Elite+Silver category.",
                 "awardImage": "experience-1.png",
+                "linkText": "", 
+                "linkValue": "",
+            },
+            {
+                "awardName": 'NPTEL Online Certification on Programming, Data Structures and Algorithms using Python',
+                "awardDesc": "This certificate was awarded to me for completing the course Data Structures and Algorithms using Python offered by IIT Madras in Elite category.",
+                "awardImage": "experience-1.png",
+                "linkText": "", 
+                "linkValue": "",
+            },
+            {
+                "awardName": 'NPTEL Online Certification on Programming, Data Structures and Algorithms using Python',
+                "awardDesc": "This certificate was awarded to me for completing the course Data Structures and Algorithms using Python offered by IIT Madras in Elite category.",
+                "awardImage": "experience-1.png",
+                "linkText": "", 
+                "linkValue": "",
+            },
+            {
+                "awardName": 'NPTEL Online Certification on Programming using C++',
+                "awardDesc": "This certificate was awarded to me for completing the course Programming using C++ offered by IIT Kharagpur in Elite category.",
+                "awardImage": "experience-1.png",
+                "linkText": "", 
+                "linkValue": "",
+            },
+            {
+                "awardName": 'Certificate of Excellence by International Centre for Culture and Education',
+                "awardDesc": "This certificate was awarded to me for involvement in Green Revolution Global Certification Program",
+                "awardImage": "Green_Revolution.jpeg",
                 "linkText": "", 
                 "linkValue": "",
             }
