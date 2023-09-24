@@ -73,20 +73,21 @@ const sectionsData = [
             {
                 "companyName": 'Sivi.ai',
                 "experienceDesc": "Turn your text into visual content instantly with Sivi. Using artificial intelligence, you can auto-generate editable banners, social posts, google display ads, and more from your story, webpage, article, etc.",
-                "role": "software engineer",
-                "companyImage": "experience-1.png"
+                "role": "Data Scientist",
+                "companyImage": "sivi.png"
+                // redirect link
             },
             {
-                "companyName": 'Sivi.ai',
+                "companyName": 'SigmaRed Technologies',
                 "experienceDesc": "Turn your text into visual content instantly with Sivi. Using artificial intelligence, you can auto-generate editable banners, social posts, google display ads, and more from your story, webpage, article, etc.",
-                "role": "software engineer",
-                "companyImage": "experience-1.png"
+                "role": "ML Intern",
+                "companyImage": "sigmared.png"
             },
             {
-                "companyName": 'Sivi.ai',
+                "companyName": 'Fiverr',
                 "experienceDesc": "Turn your text into visual content instantly with Sivi. Using artificial intelligence, you can auto-generate editable banners, social posts, google display ads, and more from your story, webpage, article, etc.",
-                "role": "software engineer",
-                "companyImage": "experience-1.png"
+                "role": "ML Freelancer",
+                "companyImage": "fiverr.png"
             }
         ],
         "sectionComponent": Experience,
@@ -98,7 +99,7 @@ const sectionsData = [
         "sectionValue": [
             {
                 "title": 'Mahadevi Birla World Academy',
-                "image": "mbwa.jpeg",
+                "image": "mbwa.png",
                 "course": "Secondary and Higher Secondary",
                 "year": "2003-2016",
             },
