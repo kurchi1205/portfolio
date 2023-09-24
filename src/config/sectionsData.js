@@ -5,7 +5,7 @@ const sectionsData = [
     {
         "sectionName": "Name",
         "sectionType": "brand",
-        "sectionValue": "Harsha",
+        "sectionValue": "Prerana Chakraborty",
         "sectionTo": "top",
     },
     {
@@ -15,9 +15,9 @@ const sectionsData = [
         "sectionComponent": About,
         "sectionValue": {
             "info": {
-                "name": "Harsha",
-                "about": "Short text with details about you, what you do or your professional career. You can add more information on the about page.",
-                "profession": "Software Engineer"
+                "name": "Prerana",
+                "about": `I'm a dedicated Data Scientist with 1.8 years of hands-on experience, specializing in cutting-edge Artificial Intelligence, including Computer Vision, NLP, and Generative AI. I hold a B.Tech in Computer Science and Engineering, combining theoretical knowledge with practical expertise. Beyond AI, I express my creativity through singing and enjoy horse riding outdoors. I'm excited to explore new frontiers, collaborate, and make a meaningful impact in this ever-evolving field.`,
+                "profession": "Data Scientist"
             }
         }
     },
@@ -69,20 +69,21 @@ const sectionsData = [
             {
                 "companyName": 'Sivi.ai',
                 "experienceDesc": "Turn your text into visual content instantly with Sivi. Using artificial intelligence, you can auto-generate editable banners, social posts, google display ads, and more from your story, webpage, article, etc.",
-                "role": "software engineer",
-                "companyImage": "experience-1.png"
+                "role": "Data Scientist",
+                "companyImage": "sivi.png"
+                // redirect link
             },
             {
-                "companyName": 'Sivi.ai',
+                "companyName": 'SigmaRed Technologies',
                 "experienceDesc": "Turn your text into visual content instantly with Sivi. Using artificial intelligence, you can auto-generate editable banners, social posts, google display ads, and more from your story, webpage, article, etc.",
-                "role": "software engineer",
-                "companyImage": "experience-1.png"
+                "role": "ML Intern",
+                "companyImage": "sigmared.png"
             },
             {
-                "companyName": 'Sivi.ai',
+                "companyName": 'Fiverr',
                 "experienceDesc": "Turn your text into visual content instantly with Sivi. Using artificial intelligence, you can auto-generate editable banners, social posts, google display ads, and more from your story, webpage, article, etc.",
-                "role": "software engineer",
-                "companyImage": "experience-1.png"
+                "role": "ML Freelancer",
+                "companyImage": "fiverr.png"
             }
         ],
         "sectionComponent": Experience,
@@ -93,16 +94,16 @@ const sectionsData = [
         "sectionTo": "education",
         "sectionValue": [
             {
+                "title": 'Mahadevi Birla World Academy',
+                "image": "mbwa.png",
+                "course": "Secondary and Higher Secondary",
+                "year": "2003-2016",
+            },
+            {
                 "title": 'IEM',
                 "image": "education-1.png",
                 "course": "Bachelor of Engineering in Computer Science",
                 "year": "2016-2020",
-            },
-            {
-                "title": 'Carnegie Mellon University',
-                "image": "education-2.png",
-                "course": "Master of Information Systems Management",
-                "year": "2024-2026",
             }
         ],
         "sectionComponent": Education

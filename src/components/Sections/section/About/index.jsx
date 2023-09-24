@@ -1,14 +1,22 @@
 import Info from './Info'
-import ProfileImage from './ProfileImage'
+import MiscInfo from './MiscInfo'
+import Card from '../../../Common/Card'
+
 import './about.css'
 
 const About = ({ data }) => {
     const { info } = data.sectionValue
     return (
-        <section id="about" className='container'>
-            <div className='about-flex'>
-                <Info data={info} />
-                <ProfileImage />
+        <section id="about">
+            <div className="container">
+                <div className="row">
+                    <div className="col-sm-12">
+                        <Card sectionClassName='about-flex'>
+                            <Info data={info} />
+                            <MiscInfo />
+                        </Card>
+                    </div>
+                </div>
             </div>
         </section>
     )
