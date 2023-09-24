@@ -21,7 +21,6 @@ const ContactsList = ({ contacts }) => {
                 }
 
             </ul>
-            
         </div>
     )
 }

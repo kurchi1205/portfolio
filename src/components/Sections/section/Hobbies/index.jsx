@@ -6,22 +6,22 @@ import Card from "../../../Common/Card"
 const Hobbies = ({ data }) => {
     const hobbies = data.sectionValue
     return (
-        <section id="hobbies" className="section-brand-background">
+        <section id="hobbies">
             <div className="container">
-                <SectionHeading heading={"Hobbies"} underLineClass={"underline-white"} />
-                <Card>
+                <SectionHeading heading={"Hobbies"} underLineClass={"underline-brand-color"} />
                     <div className="row justify-content-center">
-                        {
-                            hobbies?.map((hobby, index) => {
-                                return (
-                                    <div className="col-md-2">
-                                        <HobbiesCard hobbyInfo={hobby} key={'hobby_' + index} />
-                                    </div>
-                                )
-                            })
-                        }
+                        <Card>
+                            {
+                                hobbies?.map((hobby, index) => {
+                                    return (
+                                        <div className="col-md-2">
+                                            <HobbiesCard hobbyInfo={hobby} key={'hobby_' + index} />
+                                        </div>
+                                    )
+                                })
+                            }
+                        </Card>
                     </div>
-                </Card>
             </div>
         </section>
     )

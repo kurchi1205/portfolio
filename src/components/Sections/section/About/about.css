@@ -43,3 +43,36 @@
     margin-top: 0;
     margin-bottom: 1rem;
 }
+
+.socials {
+    padding: 0.5rem 0 0 0;
+}
+
+.ico-circle {
+    display: flex;
+}
+
+.socials .ico-circle {
+    height: 40px;
+    width: 40px;
+    font-size: 1.7rem;
+    border-radius: 50%;
+    margin: 0 15px 0 0;
+    box-shadow: 0 0 0 3px var(--brand-color);
+    transition: all 500ms ease;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials ul li {
+    display: inline-block;
+}
+
+.icons {
+    color: black;
+    float: left;
+}
+
+.ico-circle:hover {
+    background-color: var(--brand-color)
+}
