@@ -1,5 +1,6 @@
 import SectionHeading from "../../../Common/SectionHeading"
 import VolunteerCard from "./VolunteerCard"
+import Card from "../../../Common/Card"
 
 const Volunteering = ({ data }) => {
     const volunteeering = data.sectionValue
@@ -7,7 +8,8 @@ const Volunteering = ({ data }) => {
         <section id="volunteering">
             <div className="container">
                 <SectionHeading heading={"Volunteering"} underLineClass={"underline-brand-color"}/>
-                <div className="row justify-content-center">
+                <Card>
+                    <div className="row justify-content-center">
                         {
                             volunteeering?.map((volunteer, index) => {
                                 return (
@@ -17,7 +19,8 @@ const Volunteering = ({ data }) => {
                                 )
                             })
                         }
-                </div>
+                    </div>
+                </Card>
             </div>
         </section>
     )

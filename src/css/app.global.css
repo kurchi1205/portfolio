@@ -82,6 +82,13 @@ body {
     padding: 35px;
 }
 
+.white-box-without-border {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 15px 0px;
+    border-radius: 15px;
+}
+
 .white-box {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
