@@ -79,7 +79,7 @@ const sectionsData = [
                 "experienceDesc": "Turn your text into visual content instantly with Sivi. Using artificial intelligence, you can auto-generate editable banners, social posts, google display ads, and more from your story, webpage, article, etc.",
                 "role": "ML Intern",
                 "companyImage": "sigmared.png",
-                "year": "Jan 2021 - Mar 2021",
+                "year": "Oct 2021 - Dec 2021",
                 "link": "",
             },
             {
@@ -87,7 +87,7 @@ const sectionsData = [
                 "experienceDesc": "Turn your text into visual content instantly with Sivi. Using artificial intelligence, you can auto-generate editable banners, social posts, google display ads, and more from your story, webpage, article, etc.",
                 "role": "ML Freelancer",
                 "companyImage": "fiverr.png",
-                "year": "Apr 2021 - Nov 2021",
+                "year": "Aug 2020 - Sep 2021",
                 "link": "",
             }
         ],
@@ -162,11 +162,11 @@ const sectionsData = [
             },
             {
                 'hobby': 'Swimming',
-                'image': 'baking.png',
+                'image': 'swimming.png',
             },
             {
                 'hobby': 'Drawing',
-                'image': 'baking.png',
+                'image': 'painting.png',
             }
         ]
     },
