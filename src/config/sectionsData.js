@@ -31,31 +31,31 @@ const sectionsData = [
                 "projectName": 'Project 1',
                 "projectDescription": "I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.",
                 "projectSource": "https://www.example.com",
-                "projectImage": "Project_1.jpeg"
+                // "projectImage": "Project_1.jpeg"
             },
             {
                 "projectName": 'Project 2',
                 "projectDescription": "I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.",
                 "projectSource": "https://www.example.com",
-                "projectImage": "Project_2.jpeg"
+                // "projectImage": "Project_2.jpeg"
             },
             {
                 "projectName": 'Project 3',
                 "projectDescription": "I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.",
                 "projectSource": "https://www.example.com",
-                "projectImage": "Project_3.jpeg"
+                // "projectImage": "Project_3.jpeg"
             },
             {
                 "projectName": 'Project 4',
                 "projectDescription": "I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.",
                 "projectSource": "https://www.example.com",
-                "projectImage": "Project_3.jpeg"
+                // "projectImage": "Project_3.jpeg"
             },
             {
                 "projectName": 'Project 5',
                 "projectDescription": "I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.",
                 "projectSource": "https://www.example.com",
-                "projectImage": "Project_3.jpeg"
+                // "projectImage": "Project_3.jpeg"
             },
             
 
