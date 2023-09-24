@@ -16,11 +16,7 @@ const sectionsData = [
         "sectionValue": {
             "info": {
                 "name": "Prerana",
-                "about": `a dedicated Data Scientist with 1.8 years of hands-on experience, specializing in cutting-edge Artificial Intelligence, particularly in the realms of Computer Vision, Natural Language Processing (NLP), and Generative AI. My journey in the field has been marked by an unwavering passion for pushing the boundaries of AI technology.
-                I excel in crafting end-to-end Machine Learning pipelines, encompassing model training, fine-tuning, and deployment.\n
-                Beyond my technical contributions, I am proud to be a contributor to the Pandas library, enhancing the toolkit used by data scientists worldwide. Additionally, I have authored research publications with Springer, where I delve into topics that intrigue and challenge me.\n
-                My academic foundation includes a B.Tech in Computer Science and Engineering, providing me with the theoretical depth to complement my practical expertise. When I'm not immersed in the world of data and AI, you can often find me expressing my creativity as a singer or enjoying the outdoors while horse riding.\n
-                As I continue my journey in AI and data science, I am excited to explore new frontiers, collaborate with fellow enthusiasts, and make a meaningful impact in this ever-evolving field. `,
+                "about": `I'm a dedicated Data Scientist with 1.8 years of hands-on experience, specializing in cutting-edge Artificial Intelligence, including Computer Vision, NLP, and Generative AI. I hold a B.Tech in Computer Science and Engineering, combining theoretical knowledge with practical expertise. Beyond AI, I express my creativity through singing and enjoy horse riding outdoors. I'm excited to explore new frontiers, collaborate, and make a meaningful impact in this ever-evolving field.`,
                 "profession": "Data Scientist"
             }
         }
