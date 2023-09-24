@@ -1,5 +1,6 @@
 import AwardsCard from "./AwardsCard"
 import SectionHeading from "../../../Common/SectionHeading"
+import Card from "../../../Common/Card"
 
 const Awards = ({ data }) => {
     const { sectionTo, sectionValue } = data
@@ -8,6 +9,7 @@ const Awards = ({ data }) => {
         <section id={sectionTo}>
             <div className="container">
                 <SectionHeading heading={"Awards"} underLineClass={"underline-brand-color"}/>
+                <Card>
                 <div className="row justify-content-center">
                         {
                             awards?.map((award, index) => {
@@ -19,7 +21,9 @@ const Awards = ({ data }) => {
                             })
                         }
                 </div>
+                </Card>
             </div>
+            
         </section>
     )
 }
