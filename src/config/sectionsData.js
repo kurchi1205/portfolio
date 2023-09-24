@@ -16,7 +16,7 @@ const sectionsData = [
         "sectionValue": {
             "info": {
                 "name": "Harsha",
-                "about": "Short text with details about you, what you do or your professional career. You can add more information on the about page.",
+                "about": "I'm a dedicated Data Scientist with 1.8 years of hands-on experience, specializing in cutting-edge Artificial Intelligence, including Computer Vision, NLP, and Generative AI. I hold a B.Tech in Computer Science and Engineering, combining theoretical knowledge with practical expertise. Beyond AI, I express my creativity through singing and enjoy horse riding outdoors. I'm excited to explore new frontiers, collaborate, and make a meaningful impact in this ever-evolving field.",
                 "profession": "Software Engineer"
             }
         }
