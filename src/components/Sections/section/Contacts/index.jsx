@@ -4,6 +4,7 @@ import "./contacts.css"
 const Contacts = ({ data }) => {
     const { sectionTo, sectionValue } = data
     const contacts = sectionValue
+    return null
     return (
         <section id={sectionTo} className="section-brand-background">
             <div className="container" style={{padding: "50px"}}>
