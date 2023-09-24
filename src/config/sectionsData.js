@@ -5,7 +5,7 @@ const sectionsData = [
     {
         "sectionName": "Name",
         "sectionType": "brand",
-        "sectionValue": "Prerana",
+        "sectionValue": "Prerana Chakraborty",
         "sectionTo": "top",
     },
     {
@@ -15,9 +15,13 @@ const sectionsData = [
         "sectionComponent": About,
         "sectionValue": {
             "info": {
-                "name": "Harsha",
-                "about": "Short text with details about you, what you do or your professional career. You can add more information on the about page.",
-                "profession": "Software Engineer"
+                "name": "Prerana",
+                "about": `a dedicated Data Scientist with 1.8 years of hands-on experience, specializing in cutting-edge Artificial Intelligence, particularly in the realms of Computer Vision, Natural Language Processing (NLP), and Generative AI. My journey in the field has been marked by an unwavering passion for pushing the boundaries of AI technology.
+                I excel in crafting end-to-end Machine Learning pipelines, encompassing model training, fine-tuning, and deployment.\n
+                Beyond my technical contributions, I am proud to be a contributor to the Pandas library, enhancing the toolkit used by data scientists worldwide. Additionally, I have authored research publications with Springer, where I delve into topics that intrigue and challenge me.\n
+                My academic foundation includes a B.Tech in Computer Science and Engineering, providing me with the theoretical depth to complement my practical expertise. When I'm not immersed in the world of data and AI, you can often find me expressing my creativity as a singer or enjoying the outdoors while horse riding.\n
+                As I continue my journey in AI and data science, I am excited to explore new frontiers, collaborate with fellow enthusiasts, and make a meaningful impact in this ever-evolving field. `,
+                "profession": "Data Scientist"
             }
         }
     },
@@ -93,16 +97,16 @@ const sectionsData = [
         "sectionTo": "education",
         "sectionValue": [
             {
+                "title": 'Mahadevi Birla World Academy',
+                "image": "mbwa.jpeg",
+                "course": "Secondary and Higher Secondary",
+                "year": "2003-2016",
+            },
+            {
                 "title": 'IEM',
                 "image": "education-1.png",
                 "course": "Bachelor of Engineering in Computer Science",
                 "year": "2016-2020",
-            },
-            {
-                "title": 'Carnegie Mellon University',
-                "image": "education-2.png",
-                "course": "Master of Information Systems Management",
-                "year": "2024-2026",
             }
         ],
         "sectionComponent": Education
