@@ -1,6 +1,7 @@
 import './projects.css';
 import ProjectCard from './ProjectCard';
 import SectionHeading from '../../../Common/SectionHeading';
+import Card from '../../../Common/Card'
 
 const Projects = ({ data }) => {
     const projects = data.sectionValue
@@ -10,6 +11,7 @@ const Projects = ({ data }) => {
             <SectionHeading heading={"Projects"} underLineClass={"underline-white"}/>
             <div className="container mt-4 custom-container">
                 <div className='row'>
+                    <Card>
                     {
                         projects.map((project, index) => {
                             return (
@@ -17,6 +19,7 @@ const Projects = ({ data }) => {
                             )
                         })
                     }
+                    </Card>
                 </div>
             </div>
         </section>

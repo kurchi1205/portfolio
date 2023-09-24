@@ -83,11 +83,10 @@ body {
 }
 
 .white-box {
-    margin-bottom: 3rem;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    background-color: #fff;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: 1px solid #D3D3D3;
     border-radius: 15px;
 }
 
@@ -99,7 +98,7 @@ body {
 
 .box-image img {
     transition: all 1s;
-    max-height: 250px;
+    height: 250px;
     width: 100%;
     object-fit: cover;
 }

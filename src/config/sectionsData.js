@@ -31,31 +31,31 @@ const sectionsData = [
                 "projectName": 'Project 1',
                 "projectDescription": "I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.",
                 "projectSource": "https://www.example.com",
-                "projectImage": "Project_1.jpeg"
+                // "projectImage": "Project_1.jpeg"
             },
             {
                 "projectName": 'Project 2',
                 "projectDescription": "I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.",
                 "projectSource": "https://www.example.com",
-                "projectImage": "Project_2.jpeg"
+                // "projectImage": "Project_2.jpeg"
             },
             {
                 "projectName": 'Project 3',
                 "projectDescription": "I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.",
                 "projectSource": "https://www.example.com",
-                "projectImage": "Project_3.jpeg"
+                // "projectImage": "Project_3.jpeg"
             },
             {
                 "projectName": 'Project 4',
                 "projectDescription": "I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.",
                 "projectSource": "https://www.example.com",
-                "projectImage": "Project_3.jpeg"
+                // "projectImage": "Project_3.jpeg"
             },
             {
                 "projectName": 'Project 5',
                 "projectDescription": "I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.",
                 "projectSource": "https://www.example.com",
-                "projectImage": "Project_3.jpeg"
+                // "projectImage": "Project_3.jpeg"
             },
             
 
@@ -70,20 +70,25 @@ const sectionsData = [
                 "companyName": 'Sivi.ai',
                 "experienceDesc": "Turn your text into visual content instantly with Sivi. Using artificial intelligence, you can auto-generate editable banners, social posts, google display ads, and more from your story, webpage, article, etc.",
                 "role": "Data Scientist",
-                "companyImage": "sivi.png"
-                // redirect link
+                "companyImage": "sivi.png",
+                "year": "Dec 2021 - Present",
+                "link": "",
             },
             {
                 "companyName": 'SigmaRed Technologies',
                 "experienceDesc": "Turn your text into visual content instantly with Sivi. Using artificial intelligence, you can auto-generate editable banners, social posts, google display ads, and more from your story, webpage, article, etc.",
                 "role": "ML Intern",
-                "companyImage": "sigmared.png"
+                "companyImage": "sigmared.png",
+                "year": "Jan 2021 - Mar 2021",
+                "link": "",
             },
             {
                 "companyName": 'Fiverr',
                 "experienceDesc": "Turn your text into visual content instantly with Sivi. Using artificial intelligence, you can auto-generate editable banners, social posts, google display ads, and more from your story, webpage, article, etc.",
                 "role": "ML Freelancer",
-                "companyImage": "fiverr.png"
+                "companyImage": "fiverr.png",
+                "year": "Apr 2021 - Nov 2021",
+                "link": "",
             }
         ],
         "sectionComponent": Experience,
