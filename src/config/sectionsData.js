@@ -121,17 +121,23 @@ const sectionsData = [
             {
                 "awardName": 'Dashing Debut',
                 "awardDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna",
-                "awardImage": "experience-1.png"
+                "awardImage": "experience-1.png",
+                "linkText": "", 
+                "linkValue": "https://getbootstrap.com/docs/5.0/helpers/stretched-link/",
             },
             {
                 "awardName": 'Dashing Debut',
                 "awardDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna",
-                "awardImage": "experience-1.png"
+                "awardImage": "experience-1.png",
+                "linkText": "", 
+                "linkValue": "",
             },
             {
                 "awardName": 'Dashing Debut',
                 "awardDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna",
-                "awardImage": "experience-1.png"
+                "awardImage": "experience-1.png",
+                "linkText": "", 
+                "linkValue": "",
             }
         ],
         "sectionComponent": Awards
@@ -143,15 +149,23 @@ const sectionsData = [
         "sectionComponent": Hobbies,
         "sectionValue": [
             {
-                'hobby': 'Baking',
-                'image': 'baking.png',
+                'hobby': 'Singing',
+                'image': 'singing.png',
             },
             {
                 'hobby': 'Baking',
                 'image': 'baking.png',
             },
             {
-                'hobby': 'Baking',
+                'hobby': 'Horse Riding',
+                'image': 'horse_riding.png',
+            },
+            {
+                'hobby': 'Swimming',
+                'image': 'baking.png',
+            },
+            {
+                'hobby': 'Drawing',
                 'image': 'baking.png',
             }
         ]
