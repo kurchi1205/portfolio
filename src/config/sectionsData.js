@@ -143,6 +143,29 @@ const sectionsData = [
         "sectionComponent": Awards
     },
     {
+        "sectionName": "Volunteering",
+        "sectionType": "item",
+        "sectionTo": "volunteering",
+        "sectionComponent": Volunteering,
+        "sectionValue": [
+            {
+                'title': 'Volunteering-1',
+                'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna',
+                'image': 'volunteer1.jpeg',
+            },
+            {
+                'title': 'Volunteering-2',
+                'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna',
+                'image': 'volunteer1.jpeg',
+            },
+            {
+                'title': 'Volunteering-3',
+                'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna',
+                'image': 'volunteer1.jpeg',
+            }
+        ]
+    },
+    {
         "sectionName": "Hobbies",
         "sectionType": "item",
         "sectionTo": "hobbies",
@@ -169,55 +192,6 @@ const sectionsData = [
                 'image': 'painting.png',
             }
         ]
-    },
-    {
-        "sectionName": "Volunteering",
-        "sectionType": "item",
-        "sectionTo": "volunteering",
-        "sectionComponent": Volunteering,
-        "sectionValue": [
-            {
-                'title': 'Volunteering-1',
-                'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna',
-                'image': 'volunteer1.jpeg',
-            },
-            {
-                'title': 'Volunteering-2',
-                'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna',
-                'image': 'volunteer1.jpeg',
-            },
-            {
-                'title': 'Volunteering-3',
-                'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna',
-                'image': 'volunteer1.jpeg',
-            }
-        ]
-    },
-    {
-        "sectionName": "Contacts",
-        "sectionType": "item",
-        "sectionTo": "contacts",
-        "sectionComponent": Contacts,
-        "sectionValue": {
-            "socials": [
-                {
-                    "name": "github",
-                    "link": "https://github.com",
-                    "icon": faGithub,
-                },
-                {
-                    "name": "twitter",
-                    "link": "https://twitter.com",
-                    "icon": faTwitter,
-                },
-                {
-                    "name": "linkedin",
-                    "link": "https://linkedin.com",
-                    "icon": faLinkedin,
-                }
-            ],
-            "email": "example@gmail.com"
-        }
     }
 ]
 
