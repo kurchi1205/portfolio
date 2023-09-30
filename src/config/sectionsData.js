@@ -27,17 +27,12 @@ const sectionsData = [
                     },
                     {
                         "name": "github",
-                        "link": "https://github.com",
+                        "link": "https://github.com/kurchi1205",
                         "icon": faGithub,
                     },
                     {
-                        "name": "twitter",
-                        "link": "https://twitter.com",
-                        "icon": faTwitter,
-                    },
-                    {
                         "name": "linkedin",
-                        "link": "https://linkedin.com",
+                        "link": "https://www.linkedin.com/in/prerana-chakraborty-44b9931a3/",
                         "icon": faLinkedin,
                     }
                 ],
@@ -160,28 +155,28 @@ const sectionsData = [
                 "awardDesc": "This certificate above verifies that I have successfully completed the course Applied Machine Learning Course on Sep 2021 as taught by Srikanth Varma Chekuri.",
                 "awardImage": "Applied_AI.jpeg",
                 "linkText": "", 
-                "linkValue": "",
+                "linkValue": "https://www.appliedaicourse.com/certificate/f16d88bc5f",
             },
             {
                 "awardName": 'Certificate of Presentation',
                 "awardDesc": "This certificate was awarded to me for presenting a paper on 'Breast Cancer Diagnosis Using Image Processing and Machine Learning' at the International Conference on Emerging Technology in Modelling and Graphics(IEMGRAPH) 2018.",
                 "awardImage": "IEMGraph.jpeg",
                 "linkText": "", 
-                "linkValue": "",
+                "linkValue": "https://i.imgur.com/wVfe6mS.jpg",
             },
             {
                 "awardName": 'NPTEL Online Certification on Data Science for Engineers',
                 "awardDesc": "This certificate was awarded to me for completing the course Data Science for Engineers offered by IIT Madras in Elite+Silver category.",
                 "awardImage": "dse.jpeg",
                 "linkText": "", 
-                "linkValue": "",
+                "linkValue": "https://archive.nptel.ac.in/noc/Ecertificate/?q=noc19-cs13/NPTEL19CS13S11490693191116786.jpg",
             },
             {
                 "awardName": 'NPTEL Online Certification on Programming, Data Structures and Algorithms using Python',
                 "awardDesc": "This certificate was awarded to me for completing the course Data Structures and Algorithms using Python offered by IIT Madras in Elite category.",
                 "awardImage": "dsp.jpeg",
                 "linkText": "", 
-                "linkValue": "",
+                "linkValue": "https://archive.nptel.ac.in/noc/Ecertificate/?q=noc18-cs21/NPTEL18CS21S45106981810009614.jpg",
             },
             {
                 "awardName": 'NPTEL Online Certification on Programming using C++',
@@ -191,17 +186,49 @@ const sectionsData = [
                 "linkValue": "",
             },
             {
+                "awardName": 'Regression Models',
+                "awardDesc": "This certificate was awarded to me for completing the course Regression Models offered by Johns Hopkins University on Coursera.",
+                "awardImage": "regression.jpeg",
+                "linkText": "", 
+                "linkValue": "https://coursera.org/share/8552e6d8e147698031669fa6c4805e08",
+
+            },
+            {
+                "awardName": 'Practical Machine Learning',
+                "awardDesc": "This certificate was awarded to me for completing the course Practical Machine Learning offered by Johns Hopkins University on Coursera.",
+                "awardImage": "pml.jpeg",
+                "linkText": "", 
+                "linkValue": "https://coursera.org/share/eea591907912203c4b30a19d967f93cf",
+
+            },
+            {
+                "awardName": 'Developing Data Products',
+                "awardDesc": "This certificate was awarded to me for completing the course Develping Data Products offered by Johns Hopkins University on Coursera.",
+                "awardImage": "ddp.jpg",
+                "linkText": "", 
+                "linkValue": "https://coursera.org/share/b198a3cc8ef2cfe797961a825efacea5",
+
+            },
+            {
+                "awardName": 'Reproducible Research',
+                "awardDesc": "This certificate was awarded to me for completing the course Reproducible Research offered by Johns Hopkins University on Coursera.",
+                "awardImage": "rr.jpg",
+                "linkText": "", 
+                "linkValue": "https://coursera.org/share/d7f19266ca1217a9748f1c563d0db44f",
+
+            },
+            {
                 "awardName": 'Certificate of Excellence by International Centre for Culture and Education',
                 "awardDesc": "This certificate was awarded to me for involvement in Green Revolution Global Certification Program",
                 "awardImage": "Green_Revolution.jpeg",
                 "linkText": "", 
-                "linkValue": "",
+                "linkValue": "https://i.imgur.com/FaUQFro.jpg",
             }
         ],
         "sectionComponent": Awards
     },
     {
-        "sectionName": "Volunteering",
+        "sectionName": "Other Activities",
         "sectionType": "item",
         "sectionTo": "volunteering",
         "sectionComponent": Volunteering,

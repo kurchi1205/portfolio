@@ -7,7 +7,7 @@ const Volunteering = ({ data }) => {
     return (
         <section id="volunteering" className="section-brand-background">
             <div className="container">
-                <SectionHeading heading={"Volunteering"} underLineClass={"underline-white"}/>
+                <SectionHeading heading={"Other Activities"} underLineClass={"underline-white"}/>
                     <div className="row justify-content-center">
                         <Card>
                             {
