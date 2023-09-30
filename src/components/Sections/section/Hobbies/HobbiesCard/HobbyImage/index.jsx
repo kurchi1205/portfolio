@@ -1,7 +1,6 @@
-import Image from "../../../../../Common/Image"
 const HobbyImage = ({ image }) => {
     return (
-        <Image imageSource={`/images/Hobbies/${image}`} imageAlt={image} />
+        <img src={process.env.PUBLIC_URL + `/images/Hobbies/${image}`} alt={image} className="img-fluid" />
     )
 }
 

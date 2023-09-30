@@ -1,0 +1,21 @@
+.volunteer-card-box {
+    -webkit-backface-visibility: hidden;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 15px 0px;
+    backface-visibility: hidden;
+    background-color: #fff;
+    border-radius: 1rem;
+    height: 511px;
+}
+
+.volunteer-info-title {
+    font-family: Roboto-Regular, 'sans-serif';
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.volunteer-info-description {
+    font-family: Roboto-Regular, 'sans-serif';
+    font-size: 14px;
+    word-wrap: break-word;
+    overflow: auto;
+}

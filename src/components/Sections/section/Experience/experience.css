@@ -27,11 +27,12 @@
 
 .company-name {
     font-family: Roboto-Regular;
-    font-size: 1.5rem;
+    font-weight: bolder;
 }
 
 .role {
     font-family: Nunito;
+    font-size: 18px;
 }
 
 .experience-description {

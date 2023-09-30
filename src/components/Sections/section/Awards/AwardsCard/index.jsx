@@ -3,9 +3,8 @@ import AwardsInfo from "./AwardsInfo"
 
 const AwardsCard = ({ award }) => {
     const { awardImage } = award
-    console.log(award)
     return (
-        <div className="white-box">
+        <div className="awards-card-box">
             <AwardsImage image={awardImage} />
             <AwardsInfo award={award} />
         </div>

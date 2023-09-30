@@ -3,7 +3,7 @@ import VolunteerInfo from "./VolunteerInfo"
 
 const VolunteerCard = ({ volunteer }) => {
     return (
-        <div className="white-box" style={{padding: "20px"}}>
+        <div className="volunteer-card-box">
             <VolunteerImage volunteer={volunteer} />
             <VolunteerInfo volunteer={volunteer}/>                
         </div>

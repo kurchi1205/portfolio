@@ -1,10 +1,8 @@
 const Card = (props) => {
-    const { children, sectionClassName } = props
-    console.log(children)
-
+    const { children, sectionClassName = '' } = props
     return (
         <div className="box-shadow-full" style={{"borderRadius": "1rem"}}>
-            <div className={`row + ${sectionClassName}`}>
+            <div className={'row '+ sectionClassName}>
                 {children}
             </div>
         </div>

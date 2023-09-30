@@ -5,9 +5,9 @@ import Card from '../../../Common/Card'
 import './about.css'
 
 const About = ({ data }) => {
-    const { info } = data.sectionValue
+    const { info, sectionBackground } = data.sectionValue
     return (
-        <section id="about">
+        <section id="about" className={sectionBackground}>
             <div className="container">
                 <div className="row">
                     <div className="col-sm-12">

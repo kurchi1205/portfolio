@@ -1,26 +1,25 @@
 import AwardsCard from "./AwardsCard"
 import SectionHeading from "../../../Common/SectionHeading"
 import Card from "../../../Common/Card"
+import "./awards.css"
 
-const Awards = ({ data }) => {
+const Awards = ({ data, sectionBackground }) => {
     const { sectionTo, sectionValue, sectionName } = data
     const awards = sectionValue
     return (
-        <section id={sectionTo}>
+        <section id={sectionTo} className={sectionBackground}>
             <div className="container">
                 <SectionHeading heading={sectionName} underLineClass={"underline-brand-color"}/>
                 <Card>
-                <div className="row justify-content-center">
-                        {
-                            awards?.map((award, index) => {
-                                return (
-                                    <div className="col-md-4" key={'award_' + index}>
-                                        <AwardsCard award={award} />
-                                    </div>
-                                )
-                            })
-                        }
-                </div>
+                    {
+                        awards?.map((award, index) => {
+                            return (
+                                <div className="col-md-4" key={'award_' + index}>
+                                    <AwardsCard award={award} />
+                                </div>
+                            )
+                        })
+                    }
                 </Card>
             </div>
             

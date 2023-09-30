@@ -4,7 +4,7 @@ const VounteerInfo = ({ volunteer }) => {
         <div className="box-content" style={{fontFamily: 'Roboto-Regular'}}>
             <div className="row">
                 <div className="col-sm-10">
-                    <h4>{title}</h4>
+                    <p className="volunteer-info-title">{title}</p>
                     <p className="text-secondary">{description}</p>
                 </div>
             </div>

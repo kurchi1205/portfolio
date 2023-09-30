@@ -1,8 +1,8 @@
-import Image from "../../../../../Common/Image"
+import ImageCard from "../../../../../Common/ImageCard"
 
 const AwardsImage = ({ image }) => {
     return (
-        <Image imageSource={`/images/Experience/${image}`} imageAlt={image} />
+        <ImageCard imageSource={`/images/Awards/${image}`} imageAlt={image} />
     )
 }
 

@@ -3,15 +3,14 @@ import ExperienceCard from "./ExperienceCard"
 import Card from "../../../Common/Card"
 import "./experience.css"
 
-const Experience = ({ data }) => {
+const Experience = ({ data, sectionBackground }) => {
     const experiences = data.sectionValue
     return (
-        <section id="experience">
+        <section id="experience" className={sectionBackground}>
             <div className="container">
                 <SectionHeading heading={"Experience"} underLineClass={"underline-brand-color"}/>
                     <div className="row justify-content-center">
                         <Card>
-
                             {
                                 experiences?.map((experience, index) => {
                                     return (

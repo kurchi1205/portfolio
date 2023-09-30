@@ -4,7 +4,7 @@ const HobbyInfo = ({ hobbyInfo }) => {
         <div className="hobby-content">
             <div className="row">
                 <div className="col-sm-12">
-                    <h4 style={{textAlign: "center"}}>{hobby}</h4>
+                    <p>{hobby}</p>
                 </div>
             </div>
         </div>

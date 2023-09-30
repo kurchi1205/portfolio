@@ -3,11 +3,11 @@ import Link from "../../../../../Common/Link"
 const AwardsInfo = ({ award }) => {
     const { awardName, awardDesc, linkText, linkValue } = award
     return (
-        <div className="box-content">
+        <div className="card-body card-content">
             <div className="row">
-                <div className="col-sm-12">
-                    <h4 className="content-title">{awardName}</h4>
-                    <p className="content-description">{awardDesc}</p>
+                <div className="col-sm-10">
+                    <p className="awards-title">{awardName}</p>
+                    <p className="text-secondary awards-description">{awardDesc}</p>
                     <Link linkText={linkText} linkValue={linkValue}/>
                 </div>
             </div>
