@@ -234,19 +234,19 @@ const sectionsData = [
         "sectionComponent": Volunteering,
         "sectionValue": [
             {
-                'title': 'Volunteering-1',
-                'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna',
-                'image': 'volunteer1.jpeg',
+                'title': 'Innovacion Tech Fest',
+                'description': 'I worked as a volunteer in the Innovacion Tech Fest 2018, organized by IEM. Also I participated in one of the events where I showcased GPS-enabled, touch-triggered assistance safety device.',
+                'image': 'innovacion.jpeg',
             },
             {
-                'title': 'Volunteering-2',
-                'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna',
-                'image': 'volunteer1.jpeg',
+                'title': 'Pre-Conference Workshop',
+                'description': 'I participated in the pre conference workshop to write research papers and on concepts like image processing and machine learning',
+                'image': 'iemgraph.jpeg',
             },
             {
-                'title': 'Volunteering-3',
-                'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna',
-                'image': 'volunteer1.jpeg',
+                'title': 'Web Development',
+                'description': 'I participated in a workshop on basic HTML and CSS skills organized by IEM Innovacion 2017.',
+                'image': 'webd.jpeg',
             }
         ]
     },
