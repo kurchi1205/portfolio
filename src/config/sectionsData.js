@@ -1,5 +1,5 @@
 import { About, Projects, Experience, Education, Awards, Hobbies, Volunteering } from "../components/Sections/section"
-import { faLinkedin, faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 const sectionsData = [
