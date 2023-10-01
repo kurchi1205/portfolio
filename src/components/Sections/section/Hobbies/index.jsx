@@ -13,8 +13,8 @@ const Hobbies = ({ data, sectionBackground }) => {
                         {
                             hobbies?.map((hobby, index) => {
                                 return (
-                                    <div className="col-2">
-                                        <HobbiesCard hobbyInfo={hobby} key={'hobby_' + index} />
+                                    <div className="col-2" key={'hobby_' + index}>
+                                        <HobbiesCard hobbyInfo={hobby} />
                                     </div>
                                 )
                             })

@@ -11,9 +11,9 @@ const Info = ({ data }) => {
                         data.socials.map((social, index) => {
                             const { link, icon } = social
                             return (
-                                <li>
+                                <li key={"social_" + index}>
                                     <a href={link} target='blank'>
-                                        <span class="ico-circle">
+                                        <span className="ico-circle">
                                             <FontAwesomeIcon icon={icon} className='icons'/>
                                         </span>
                                     </a>

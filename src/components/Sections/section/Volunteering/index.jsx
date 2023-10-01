@@ -14,8 +14,8 @@ const Volunteering = ({ data, sectionBackground }) => {
                             {
                                 volunteeering?.map((volunteer, index) => {
                                     return (
-                                        <div className="col-md-4">
-                                            <VolunteerCard volunteer={volunteer} key={'volunteer_' + index} />
+                                        <div className="col-md-4" key={'volunteer_' + index}>
+                                            <VolunteerCard volunteer={volunteer}  />
                                         </div>
                                     )
                                 })

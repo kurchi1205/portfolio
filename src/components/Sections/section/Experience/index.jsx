@@ -14,8 +14,8 @@ const Experience = ({ data, sectionBackground }) => {
                             {
                                 experiences?.map((experience, index) => {
                                     return (
-                                        <div className="col-md-4">
-                                            <ExperienceCard experience={experience} key={'experience_' + index} />
+                                        <div className="col-md-4" key={'experience_' + index} >
+                                            <ExperienceCard experience={experience} />
                                         </div>
                                     )
                                 })

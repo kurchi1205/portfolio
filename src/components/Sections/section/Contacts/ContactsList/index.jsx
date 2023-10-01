@@ -11,7 +11,7 @@ const ContactsList = ({ contacts }) => {
                         return (
                             <li>
                                 <a href={link} target='blank'>
-                                    <span class="ico-circle">
+                                    <span className="ico-circle">
                                         <FontAwesomeIcon icon={icon} className='icons'/>
                                     </span>
                                 </a>

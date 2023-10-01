@@ -15,8 +15,8 @@ const Education = ({ data, sectionBackground }) => {
                             {
                                 educations?.map((education, index) => {
                                     return (
-                                        <div className="col-md-6">
-                                            <EducationCard education={education} key={'education_' + index} />
+                                        <div className="col-md-6" key={'education_' + index}>
+                                            <EducationCard education={education} />
                                         </div>
                                     )
                                 })
