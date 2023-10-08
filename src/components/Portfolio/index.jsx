@@ -1,13 +1,13 @@
-import Navbar from "../Navbar"
-import Sections from "../Sections"
+import Navbar from '../Navbar'
+import Sections from '../Sections'
 
 const Portfolio = () => {
-    return (
-        <div>
-            <Navbar />
-            <Sections />
-        </div>
-    )
+	return (
+		<div>
+			<Navbar />
+			<Sections />
+		</div>
+	)
 }
 
 export default Portfolio
