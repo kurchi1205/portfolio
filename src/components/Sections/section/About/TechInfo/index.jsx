@@ -1,5 +1,5 @@
 const Divider = () => {
-	return <div class="progress"></div>
+	return <div className="progress"></div>
 }
 
 const TechInfo = ({ data }) => {
