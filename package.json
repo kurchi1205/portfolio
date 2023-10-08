@@ -37,7 +37,8 @@
     "deploy": "gh-pages -d build",
     "start": "vite",
     "build": "vite build",
-    "lint": "eslint . --ext .js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts,.vue --fix"
+    "lint": "eslint . --ext .js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts,.vue --fix",
+	"serve:dist": "yarn serve ./dist"
   },
   "eslintConfig": {
     "extends": [
