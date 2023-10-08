@@ -10,12 +10,12 @@
 
 .about-flex {
     display: flex;
-    justify-content: center;
-    padding-left: 100px;
+    /* justify-content: center; */
+    padding-left: 60px;
 }
 
 .info {
-    max-width: 500px;
+    /* max-width: 500px; */
 }
 
 .info .profession {
@@ -76,3 +76,10 @@
 .ico-circle:hover {
     background-color: var(--brand-color)
 }
+
+.progress {
+    background-color: #FDC435;
+    margin: .3rem 0 1.2rem 0;
+    border-radius: 0;
+    height: .3rem;
+  }
