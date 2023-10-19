@@ -24,6 +24,7 @@ export default defineConfig(async () => {
 		},
 		build: {
 			sourcemap: false,
+			outDir: 'build',
 			rollupOptions: {
 				output: {
 					entryFileNames: 'assets/[name].js',
