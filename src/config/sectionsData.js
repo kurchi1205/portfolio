@@ -92,35 +92,40 @@ const sectionsData = [
 		sectionComponent: Projects,
 		sectionValue: [
 			{
-				projectName: 'Project 1',
-				projectDescription: 'I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.',
-				projectSource: 'https://www.example.com',
+				projectName: 'Stable Diffusion Custom Coloring',
+				projectDescription: 'Developed a pipeline for textual inversion, integrating variant loss for color customization through upscaled latent adjustments.',
+				projectSource: 'https://github.com/kurchi1205/SD-Basics',
 				// "projectImage": "Project_1.jpeg"
 			},
 			{
-				projectName: 'Project 2',
-				projectDescription: 'I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.',
-				projectSource: 'https://www.example.com',
+				projectName: 'Web Traffic forecasting for Wiki Pages',
+				projectDescription: 'Utilized Stacked BidirectionalLSTM for Kaggle time series forecasting, achieving 83% SMAPE.',
+				projectSource: 'https://medium.com/analytics-vidhya/web-traffic-time-series-forecasting-forecast-future-traffic-for-wikipedia-pages-92c06454dd7',
 				// "projectImage": "Project_2.jpeg"
 			},
 			{
-				projectName: 'Project 3',
-				projectDescription: 'I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.',
-				projectSource: 'https://www.example.com',
+				projectName: 'GPT for Text Generation',
+				projectDescription: 'Developed a GPT model with  custom training pipeline. Deployed on Hugging Face Spaces after successful training.',
+				projectSource: 'https://github.com/kurchi1205/GPT-Scratch',
 				// "projectImage": "Project_3.jpeg"
 			},
 			{
-				projectName: 'Project 4',
-				projectDescription: 'I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.',
-				projectSource: 'https://www.example.com',
+				projectName: 'Next word Prediction on Swiftkey Dataset',
+				projectDescription: 'Addressing an NLP challenge via Markov Chain, LSTM, Bi-LSTM, fine-tuned BERT and GPT. Opted for GPT due to superior performance and minimal loss. The link has details of all the methods.',
+				projectSource: 'https://medium.com/analytics-vidhya/next-word-prediction-using-swiftkey-data-f121f59bc7d',
 				// "projectImage": "Project_3.jpeg"
 			},
 			{
-				projectName: 'Project 5',
-				projectDescription: 'I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.',
-				projectSource: 'https://www.example.com',
+				projectName: 'Analysis of a Self Driving Car',
+				projectDescription: 'This was my final year project where we built our own densenet model and tried to predict the driving angle of a self driving car.',
+				projectSource: 'https://github.com/kurchi1205/Final-Year-Project-',
 				// "projectImage": "Project_3.jpeg"
 			},
+			{
+				projectName: 'Breast Cancer Diagnosis Using Image Processing and Machine Learning',
+				projectDescription: 'This was my paper which I presented at IEMGRAPH 2018. It was published in Advances in Intelligent Systems and Computing Book series by Springer under Emerging Technology in Modelling and Graphics.',
+				projectSource: 'https://doi.org/10.1007/978-981-13-7403-6_12',
+			}
 		],
 	},
 	{
@@ -172,7 +177,7 @@ const sectionsData = [
 			{
 				title: 'Institute of Engineering and Management',
 				image: 'iem.png',
-				course: 'Bachelor of Technology in Computer Science',
+				course: 'Bachelor of Technology in Computer Science Engineering',
 				year: '2016-2020',
 			},
 		],

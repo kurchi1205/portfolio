@@ -8,7 +8,7 @@ const Projects = ({ data, sectionBackground }) => {
 
 	return (
 		<section id="projects" className={sectionBackground}>
-			<SectionHeading heading={'Projects'} underLineClass={'underline-white'} />
+			<SectionHeading heading={'Projects Contributions & Publications'} underLineClass={'underline-white'} />
 			<div className="container mt-4 custom-container">
 				<div className="row">
 					<Card>
