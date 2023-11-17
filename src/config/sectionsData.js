@@ -111,7 +111,7 @@ const sectionsData = [
 			},
 			{
 				projectName: 'Next word Prediction on Swiftkey Dataset',
-				projectDescription: `'Addressing an NLP challenge via Markov Chain, LSTM, Bi-LSTM, fine-tuned BERT and GPT. Opted for GPT due to superior performance and minimal loss. The link has details of all the methods.'`,
+				projectDescription: `Addressing an NLP challenge via Markov Chain, LSTM, Bi-LSTM, fine-tuned BERT and GPT. Opted for GPT due to superior performance and minimal loss. The link has details of all the methods.`,
 				projectSource: 'https://medium.com/analytics-vidhya/next-word-prediction-using-swiftkey-data-f121f59bc7d',
 				// "projectImage": "Project_3.jpeg"
 			},
@@ -123,7 +123,7 @@ const sectionsData = [
 			},
 			{
 				projectName: 'Breast Cancer Diagnosis Using Image Processing and Machine Learning',
-				projectDescription: `'This was my paper which I presented at IEMGRAPH 2018.\n It was published in Advances in Intelligent Systems and Computing Book series by Springer under Emerging Technology in Modelling and Graphics.'`,
+				projectDescription: `This was my paper which I presented at IEMGRAPH 2018.\n It was published in Advances in Intelligent Systems and Computing Book series by Springer under Emerging Technology in Modelling and Graphics.`,
 				projectSource: 'https://doi.org/10.1007/978-981-13-7403-6_12',
 			},
 		],
