@@ -37,7 +37,7 @@
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
     "start": "vite",
-    "build": "vite build",
+	"build": "react-scripts build",
     "lint": "eslint . --ext .js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts,.vue --fix",
     "serve:dist": "yarn serve ./dist"
   },

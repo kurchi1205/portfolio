@@ -189,18 +189,18 @@ const sectionsData = [
 		sectionTo: 'awards',
 		sectionValue: [
 			{
-			    "awardName": 'Dashing Debut',
-			    "awardDesc": "This was awarded to me for good performance in the first year of office.",
-			    "awardImage": "debut.jpeg",
-			    "linkText": "See Full View",
-			    "linkValue": "https://i.ibb.co/qCwJjfj/debut.jpg",
+				awardName: 'Dashing Debut',
+				awardDesc: 'This was awarded to me for good performance in the first year of office.',
+				awardImage: 'debut.jpeg',
+				linkText: 'See Full View',
+				linkValue: 'https://i.ibb.co/qCwJjfj/debut.jpg',
 			},
 			{
-			    "awardName": 'Certificate of Appreciation',
-			    "awardDesc": "BNI Hallmark Coimbatore chapter awarded me this certificate for good performance in office.",
-			    "awardImage": "bni.jpeg",
-			    "linkText": "See Full View",
-			    "linkValue": "https://i.ibb.co/Cs64GVg/bni.jpg",
+				awardName: 'Certificate of Appreciation',
+				awardDesc: 'BNI Hallmark Coimbatore chapter awarded me this certificate for good performance in office.',
+				awardImage: 'bni.jpeg',
+				linkText: 'See Full View',
+				linkValue: 'https://i.ibb.co/Cs64GVg/bni.jpg',
 			},
 			{
 				awardName: 'Applied Machine Learning Course',
