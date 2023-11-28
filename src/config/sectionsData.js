@@ -17,7 +17,7 @@ const sectionsData = [
 		sectionValue: {
 			info: {
 				name: 'Prerana',
-				about: `I'm a dedicated Data Scientist with 1.8 years of hands-on experience, specializing in cutting-edge Artificial Intelligence, including Computer Vision, NLP, and Generative AI. I hold a B.Tech in Computer Science and Engineering, combining theoretical knowledge with practical expertise. Beyond AI, I express my creativity through singing and enjoy horse riding outdoors. I'm excited to explore new frontiers, collaborate, and make a meaningful impact in this ever-evolving field.`,
+				about: `Data Scientist, AI enthusiast, Computer Vision and NLP specialist with creative zeal.`,
 				profession: 'Data Scientist',
 				socials: [
 					{
@@ -65,11 +65,11 @@ const sectionsData = [
 					items: [
 						{
 							name: 'Framework',
-							items: ['FastAPI', 'Pydantic', 'OpenCV'],
+							items: ['FastAPI', 'Pydantic'],
 						},
 						{
 							name: 'Cloud',
-							items: ['Google Cloud', 'Azure', 'DigitalOcean'],
+							items: ['Google Cloud', 'DigitalOcean'],
 						},
 						{
 							name: 'Deployment',
@@ -98,16 +98,16 @@ const sectionsData = [
 				// "projectImage": "Project_1.jpeg"
 			},
 			{
+				projectName: 'GPT for Text Generation',
+				projectDescription: 'Developed a GPT model with  custom training pipeline and exported to ONNX and then quantized it. Also developed a flow for Flash attention (cuda acceleration codes are missing. Only for academic purpose). Deployed on Hugging Face Spaces after successful training.',
+				projectSource: 'https://github.com/kurchi1205/GPT-Scratch',
+				// "projectImage": "Project_3.jpeg"
+			},
+			{
 				projectName: 'Web Traffic forecasting for Wiki Pages',
 				projectDescription: 'Utilized Stacked BidirectionalLSTM for Kaggle time series forecasting, achieving 83% SMAPE.',
 				projectSource: 'https://medium.com/analytics-vidhya/web-traffic-time-series-forecasting-forecast-future-traffic-for-wikipedia-pages-92c06454dd7',
 				// "projectImage": "Project_2.jpeg"
-			},
-			{
-				projectName: 'GPT for Text Generation',
-				projectDescription: 'Developed a GPT model with  custom training pipeline. Deployed on Hugging Face Spaces after successful training.',
-				projectSource: 'https://github.com/kurchi1205/GPT-Scratch',
-				// "projectImage": "Project_3.jpeg"
 			},
 			{
 				projectName: 'Next word Prediction on Swiftkey Dataset',
@@ -140,7 +140,7 @@ const sectionsData = [
 				role: 'Data Scientist',
 				companyImage: 'sivi.png',
 				year: 'Dec 2021 - Present',
-				link: '',
+				link: 'https://sivi.ai/',
 			},
 			{
 				companyName: 'SigmaRed Technologies',
@@ -149,7 +149,7 @@ const sectionsData = [
 				role: 'ML Intern',
 				companyImage: 'sigmared.png',
 				year: 'Oct 2021 - Dec 2021',
-				link: '',
+				link: 'https://www.sigmared.ai/',
 			},
 			{
 				companyName: 'Fiverr',
@@ -160,6 +160,14 @@ const sectionsData = [
 				year: 'Aug 2020 - Sep 2021',
 				link: '',
 			},
+			{
+				companyName: 'Jagadis Bose National Science Talent Search',
+				experienceDesc:
+					'It was a 4 day student Science camp where we got the opportunity to conduct different science experiments and perform an exhaustive analysis on that.',
+				role: 'Student Scientists',
+				companyImage: 'jbnsts.jpeg',
+				year: 'March 2015'
+			}
 		],
 		sectionComponent: Experience,
 	},
